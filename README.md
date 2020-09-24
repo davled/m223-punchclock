@@ -35,7 +35,7 @@ Die Applikation ist jetzt aufrufbar über den Browser unter:
 ************************************************************************************
 
 Um einen User zu erstellen auf die Seite navigieren: 
-	http://localhost:8081/sign-up
+	http://localhost:8081/users/sign-up
 
 Die Userverwaltung erreicht man unter:
 	http://localhost:8081/users
