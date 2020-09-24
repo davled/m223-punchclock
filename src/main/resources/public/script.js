@@ -70,7 +70,7 @@ const renderEntries = () => {
         row.appendChild(createCell(index));
         row.appendChild(createCell(new Date(entry.checkIn).toLocaleString()));
         row.appendChild(createCell(new Date(entry.checkOut).toLocaleString()));
-        row.appendChild(appendButtonToCell(entry))
+        row.appendChild(appendButtonToCell(index))
         display.appendChild(row);
         return entry;
     });
